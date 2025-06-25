@@ -4,7 +4,11 @@ Geral
 html {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         font-size: calc(12px + 0.390625vw);
-
+    
+}
+section h2 {
+    text-align: center;
+    font-size: 1.3rem;
 }
 
 
@@ -32,7 +36,7 @@ margin: 0 5vw 0 5vw;
 }
 
 section.banner img {
-    width: 60%;
+    width: 40%;
 }
 section.banner h2 {
     font-weight: bold;
@@ -51,4 +55,54 @@ section.banner p button {
     font-size: 1.6rem;
     padding: 10px 20px 10px 20px;
     border-radius: 5px;
+}
+/*=========================================
+Posts
+===========================================*/
+section.posts {
+    background-color: #EDF7FA;
+    padding: 20px 20px 20px 20px;
+}
+
+section.posts ul li {
+    background-color: white;
+    margin: 11px 0 11px 0;
+    padding: 20px 20px 20px 20px;
+}
+section.posts ul li h3 {
+    font-weight: bold;
+    font-size: 1.7rem;
+}
+section.posts ul li p {
+    font-size: 1.3rem;
+    margin: 15px 0 15px 0;
+    line-height: 1.5rem;
+}
+/*=======================================
+Works
+========================================*/
+section.works {
+    margin: 30px 20px 30px 20px;
+}
+
+section.works ul li h3 {
+    font-weight: bold;
+    font-size: 1.9rem;
+    margin: 20px 10px 20px 10px;
+}
+section.works ul li p {
+font-size: 1.2rem;
+}
+
+section.works ul li p.gray {
+    color: #8695A4;
+    padding: 15px 15px 15px 15px;
+}
+
+section.works ul li p span {
+    background-color: #142850;
+    color: white;
+    padding: 5.5px 11px 5.5px 11px;
+    border-radius: 40px;
+    font-weight: bold;
 }
