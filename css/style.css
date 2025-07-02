@@ -106,3 +106,47 @@ section.works ul li p span {
     border-radius: 40px;
     font-weight: bold;
 }
+
+section.works ul li {
+    padding: 0 20px 0 20px;
+}
+
+/*=================================
+Rodapé
+==================================*/
+
+footer {
+    text-align: center;
+    padding: 20vw 0 20vw 0
+}
+
+footer p a {
+    color: #21243D;
+    font-size: 2.5rem;
+    margin: 0 10px 0 10px
+}
+
+@media (min-width: 900px) {
+    header {
+        padding: 3vw 2vw 5vw 2vw;
+    }
+ header nav ul {
+    display: flex;
+    justify-content: right;
+ }
+ header nav ul li {
+    margin: 0 15px 0 15px;
+ }
+ section.banner {
+    display: flex;
+    flex-direction: row-reverse;
+ }
+ section.banner div.texto {
+    width: 50%;
+    text-align: left;
+    padding: 0 15vw 0 0;
+ }
+ section.banner img {
+    width: 100%;
+ }
+}
