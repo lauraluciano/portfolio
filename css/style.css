@@ -137,16 +137,44 @@ footer p a {
  header nav ul li {
     margin: 0 15px 0 15px;
  }
+ main section h2 {
+     text-align: left;
+      margin: 0 0 0 2vw;
+ }
  section.banner {
     display: flex;
     flex-direction: row-reverse;
+    padding: 0 10vw 0 10vw;
  }
  section.banner div.texto {
-    width: 50%;
     text-align: left;
     padding: 0 15vw 0 0;
  }
+ section.banner h2 {
+    text-align: left;
+ }
  section.banner img {
-    width: 100%;
+    width: 200%;
+    padding: 0 0 40px 0;
+    
+ }
+ section.posts ul {
+    display: flex;
+    margin:  1vw 0 0 0;
+ }
+ section.posts {
+    padding: 3vw 10vw 3vw 10vw;
+ }
+ section.posts ul li {
+     margin: 0 1vw 0 1vw;
+ }
+ section.works ul {
+    display: flex;
+ }
+ section.works {
+    padding: 3vw 10vw 3vw 10vw;
+ }
+ section.works h2 {
+    padding: 0 0 2vw 0;
  }
 }
