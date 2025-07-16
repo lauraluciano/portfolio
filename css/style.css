@@ -139,34 +139,62 @@ section.dashboard {
     margin: 10px 20px 10px 20px;
 }
 
+header nav ul li a span {
+    color: #FF6464;
+}
+
+section.dashboard ul li img{
+    border-bottom: 1px solid rgb(202, 202, 202);
+    padding: 5vw 0 5vw 0;
+}
+
 section.dashboard h1 {
     font-size: xx-large;
+    margin: 10px 0px 15px 10px;
+    color: #21243D;
+}
+section.dashboard h2 {
+    font-weight: bold;
+    font-size: 1.8rem;
+    text-align: left;
+    margin: 10px 0px 15px 0;
+    color: #21243D;
+}
+section.dashboard p.texto2 span {
+      background-color: #FF6464;
+
+      font-size: medium;
+    color: white;
+    padding: 2px 9px 2px 9px;
+    border-radius: 20px;
+    font-weight: bolder;
+    margin: 10px 5px 10px 10px;
+}
+section.dashboard p.texto2 {
+font-size: 1.3rem;
+margin: 20px 10px 20px 10px;
+line-height: 1.5rem;
+color: #21243D;
+}
+
+section.dashboard p {
+    font-size: 1.2rem;
+    margin: 20px 0px 20px 0px;
+    color: #21243D;
+}
+
+section.dashboard ul li img {
+    width: 100%;
+margin: 20px 8px 20px px;
+
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+section.dashboard ul li h2 {
+    margin: 15px 0 0 0;
+    font-weight: lighter;
+    color: #21243D;
+}
 
 @media (min-width: 900px) {
     header {
@@ -219,4 +247,13 @@ section.dashboard h1 {
  section.works h2 {
     padding: 0 0 2vw 0;
  }
+section.dashboard {
+    margin: 10px 20vw 10px 20vw;
 }
+
+section.dashboard h1 {
+    margin: 10px 10px 35px 10px;
+}
+
+}
+
